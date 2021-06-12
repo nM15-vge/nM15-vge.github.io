@@ -7,6 +7,18 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.center {
+	display: flex;
+	justify-content: center;
+}
+
+.badge {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1657,14 +1669,3 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
-.center {
-	display: flex;
-	justify-content: center;
-}
-
-.badge {
-	display: flex;
-	justify-content: space-evenly;
-	flex-wrap: wrap;
-	list-style: none;
-}
